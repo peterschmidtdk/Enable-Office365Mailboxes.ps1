@@ -27,7 +27,7 @@ $AliasName=$StrPrimary.Split("@")[0]
 Write-Host "Email Alias: " $AliasName
 #Set the Tenant name here, change FABRIKAM to your tenant name:  
 $RemoteRtAdr = "$AliasName@FABRIKAM.mail.onmicrosoft.com"
-Write-Host "Email Alias: " $RemoteRtAdr  
+Write-Host "Remote Email Address: " $RemoteRtAdr  
 
 Write-host -ForegroundColor Cyan "---------------------------------------------------------------------------"
 Write-host -ForegroundColor Cyan "Set Office 365 Remote Mailbox and reconnect them to existing O365 Mailboxes"
